@@ -434,6 +434,11 @@ body:not(.user-is-tabbing) a:focus {
     .header__text p {
         transform: scale(.8);
     }
+    .quote p1 {
+        margin: 0; /* Removes default margins */
+        padding: 0; /* Removes default padding */
+        line-height: 1.2; /* Adjusts line height for tighter spacing */
+    }
 }
 
 /* --------------------------------------- */
